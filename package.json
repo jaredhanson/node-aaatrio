@@ -1,0 +1,46 @@
+{
+  "name": "triplea",
+  "version": "0.0.0",
+  "description": "Authentication, authorization and accounting primitives.",
+  "keywords": [
+    "aaa",
+    "authentication",
+    "authorization"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "https://www.jaredhanson.me/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/node-triplea.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jaredhanson/node-triplea/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/jaredhanson"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "chai-express-handler": "^0.1.1",
+    "make-node": "^0.3.0",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.7",
+    "sinon-chai": "^2.8.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.test.js test/**/*.test.js --require ./test/bootstrap/node"
+  }
+}
