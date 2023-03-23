@@ -14,10 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/node-triplea.git"
+    "url": "git://github.com/jaredhanson/node-aaatrio.git"
   },
   "bugs": {
-    "url": "https://github.com/jaredhanson/node-triplea/issues"
+    "url": "https://github.com/jaredhanson/node-aaatrio/issues"
   },
   "funding": {
     "type": "github",
